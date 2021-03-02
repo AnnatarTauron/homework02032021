@@ -1,0 +1,44 @@
+  215  git clone git@github.com:AnnatarTauron/homework02032021.git
+  216  ll
+  217  cd homework02032021/
+  218  ll
+  219  echo 'fisrt commit'>>file1
+  220  git add file1
+  221  git commit file1
+  222  git push
+  223  echo 'fisrt commit'>>file2
+  224  echo 'fisrt commit'>>file3
+  225  git add file2
+  226  git commit file2
+  227  git push
+  228  echo 'fisrt commit'>>file3
+  229  git add file3
+  230  git commit file3
+  231  git push
+  232  git branch develop1
+  233  git branch develop2
+  234  git checkout develop1
+  235  git branch
+  236  echo 'some changes'>> file1
+  237  git commit file1
+  238  git push
+  239  echo 'some additional changes'>> file2
+  240  git status
+  241  git commit file2
+  242  git checkout develop2
+  243  echo 'some changes'>>file3
+  244* git commit file
+  245  git branch
+  246  git merge develp1
+  247  git status
+  248  ll
+  249  git merge develop1
+  250  git checkout main
+  251  git merge develop2
+
+  253  git status
+  254  git log
+  255  git branch
+  256  git reset c8cccd61757e540af91a640a3c5c02dc3826eb13
+  257  git push
+
